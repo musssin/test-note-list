@@ -8,5 +8,6 @@ export default defineNuxtConfig({
   //   },
   // },
 
-  modules: [],
+  modules: ['@nuxtjs/tailwindcss', 'nuxt-headlessui'],
+  buildModules: ['@nuxt/typescript-build'],
 });
