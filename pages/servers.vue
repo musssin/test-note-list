@@ -1,9 +1,10 @@
 <template>
   <div class="mx-auto max-w-full px-4 sm:px-6 lg:px-8">
     <div class="grid grid-cols-12 gap-6 ">
-      <ServersList v-if="data" :servers="data" class="col-span-7" />
+      <EditServer :server="selectedServer" class="col-span-12 md:col-span-4  md:order-2" @save="save" />
+      <ServersList v-if="data" :servers="data" class="col-span-12 md:col-span-7 md:order-1" />
       <div v-else>Loading...</div>
-      <EditServer :server="selectedServer" class="col-span-4" @save="save" />
+
 
     </div>
   </div>

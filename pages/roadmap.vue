@@ -28,7 +28,7 @@ const roadmap = [
   {
     name: 'Адаптив для списка и редактирование серверов',
     email: '',
-    role: 'Не сделано',
+    role: 'Cделано',
     imageUrl:
       'https://cdn.icon-icons.com/icons2/2941/PNG/512/setting_settings_icon_183789.png',
     lastSeen: '-',

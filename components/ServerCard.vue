@@ -9,7 +9,7 @@
                 <p class="mt-1 truncate text-xs leading-5 text-gray-500">{{ server.customer_id }}</p>
             </div>
         </div>
-        <div class="hidden shrink-0 sm:flex sm:flex-col sm:items-end">
+        <div class=" shrink-0 flex flex-col items-end">
             <p class="text-sm leading-6 text-gray-900">{{ server.server_type }}</p>
             <div class="mt-1 flex items-center gap-x-1.5">
                 <div class="flex-none rounded-full  p-1" :class="[server.active ? 'bg-emerald-500/20' : 'bg-red-500/20']">
