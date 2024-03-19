@@ -38,7 +38,7 @@
                 </div>
             </div>
             <div class="mt-6 flex items-center justify-end gap-x-6">
-                <button type="button"
+                <button v-if="note && note.id !== -1" type="button"
                     class="rounded-md bg-red-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600"
                     @click="remove">Удалить</button>
                 <button type="submit"
