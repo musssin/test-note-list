@@ -8,6 +8,7 @@
     "isolatedModules": true,
     "target": "ES2018",
     "module": "ESNext",
+    "verbatimModuleSyntax": true,
     "moduleResolution": "Node",
     "lib": [
       "ESNext",
